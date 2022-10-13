@@ -1,6 +1,6 @@
 # Rocket Deliveries: Stripe Connect Custom demo
 
-Rocket Deliveries is a sample on-demand platform that offers passengers rides with pilots, built on top of [Stripe Connect](https://stripe.com/connect), [Connect Custom](https://stripe.com/connect/custom), and [Connect Onboarding for Custom Accounts](https://stripe.com/docs/connect/connect-onboarding). 
+Rocket Deliveries is a sample on-demand platform that offers passengers rides with pilots, built on top of [Stripe Connect](https://stripe.com/connect), [Connect Custom](https://stripe.com/connect/custom), and [Connect Onboarding for Custom Accounts](https://stripe.com/docs/connect/connect-onboarding).
 
 **You can try the web app live on [rocketdeliveries.io](https://rocketdeliveries.io).**
 
@@ -30,7 +30,7 @@ You'll need to have [Node.js](http://nodejs.org) >= 7.x and [MongoDB](http://mon
     brew install mongodb-community
 
 ### Getting started
-
+`
 Install dependencies using npm (or yarn):
 
     cd server

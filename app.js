@@ -156,7 +156,7 @@ async function registerWebhooks(webhooksDomain) {
   app.set('webhookSecret', createdWebhookEndpoint.secret);
 }
 
-/* Start the server (but first register a webhook endpoint with Stripe). 
+/* Start the server (but first register a webhook endpoint with Stripe).
    You can optionally specify a webhook secret to verify all webhook
    events with the signed secret key.
 */
@@ -166,7 +166,7 @@ async function startServer() {
     if (config.registerWebhooks) {
       await registerWebhooks();
     }
-    console.log('📦 Rocket Deliveries server started:', config.publicDomain);
+    console.log('📦 Duber Deliveries server started:', config.publicDomain);
   });
 }
 

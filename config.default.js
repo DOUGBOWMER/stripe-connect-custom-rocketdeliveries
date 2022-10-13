@@ -2,12 +2,12 @@
 
 module.exports = {
   // App name
-  appName: 'Rocket Deliveries',
+  appName: 'Duber, Herbal Deliveries',
 
   // Public domain of Rocket Deliveries
   publicDomain: 'http://localhost:3000',
 
-  // Whether to register webhook events. For a local development environment, 
+  // Whether to register webhook events. For a local development environment,
   // you can also forward webhook events with the Stripe CLI:
   //   stripe listen -f localhost:3000/pilots/stripe/webhooks
  registerWebhooks: true,
@@ -16,7 +16,7 @@ module.exports = {
   port: 3000,
 
   // Secret for cookie sessions
-  secret: 'YOUR_SECRET',
+  secret: 'Thiisicasad56dsf6+g6+asdfdfg',
 
   // Configuration for Stripe
   // API Keys: https://dashboard.stripe.com/account/apikeys

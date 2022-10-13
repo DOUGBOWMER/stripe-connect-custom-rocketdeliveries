@@ -1,16 +1,16 @@
 {
-  "name": "stripe-connect-rocketrides",
-  "description": "A sample on-demand platform running on top of Stripe Connect.",
+  "name": "duber-herbal-deliveries",
+  "description": "A Herbal Deliver App",
   "version": "0.0.1",
   "private": true,
-  "author": "Romain Huet",
+  "author": "Doug Bowmer",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stripe/stripe-connect-rocketrides.git"
+    "url": "https://github.com/DOUGBOWMER/duber.git"
   },
   "engines": {
-    "node": "10.x"
+    "node": "16.x"
   },
   "scripts": {
     "start": "node app.js"
@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "express-flash": "0.0.2",
     "moment": "^2.24.0",
+    "mongodb": "^4.10.0",
     "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
